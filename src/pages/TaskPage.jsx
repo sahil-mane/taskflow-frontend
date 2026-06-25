@@ -176,13 +176,13 @@ const TaskPage = () => {
 				{/* Stats grid */}
 				<div className="grid grid-cols-2 sm:grid-cols-4 gap-3 mb-5">
 					<StatCard icon="layout-list" count={stats?.total || 0}
-						label="Total" iconBg="bg-violet-50" iconColor="text-violet-600" />
+						label="Total" borderColor="border-l-blue-500" />
 					<StatCard icon="clock" count={stats.pending}
-						label="Pending" iconBg="bg-amber-50" iconColor="text-amber-600" />
+						label="Pending" borderColor="border-l-amber-500" />
 					<StatCard icon="loader" count={stats.inProgress}
-						label="In progress" iconBg="bg-blue-50" iconColor="text-blue-600" />
+						label="In progress" borderColor="border-l-violet-600" />
 					<StatCard icon="circle-check" count={stats.completed}
-						label="Completed" iconBg="bg-green-50" iconColor="text-green-600" />
+						label="Completed"  borderColor="border-l-green-500" />
 				</div>
 
 				{/* Toolbar */}
