@@ -1,16 +1,67 @@
-# React + Vite
+# TaskFlow Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A modern and responsive task management application built with React, Vite, Tailwind CSS, and React Query.
 
-Currently, two official plugins are available:
+## Live Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* User Authentication (Login & Register)
+* Create Tasks
+* Edit Tasks
+* Delete Tasks
+* Update Task Status
+* Filter Tasks by Status
+* Infinite Scroll Pagination
+* Task Statistics Dashboard
+* Mobile Responsive Design
+* Toast Notifications
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* React
+* Vite
+* Tailwind CSS
+* React Query (TanStack Query)
+* Axios
+* React Router DOM
+* React Hot Toast
+* React Intersection Observer
 
-## Expanding the Oxlint configuration
+## Installation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+```bash
+git clone https://github.com/sahil-mane/taskflow-frontend.git
+
+cd taskflow-frontend
+
+npm install
+
+npm run dev
+```
+
+## Environment Variables
+
+Create a `.env` file in the root directory:
+
+```env
+VITE_API_URL=http://localhost:5000
+```
+
+## Project Structure
+
+```text
+src/
+├── api/
+├── assets/
+├── components/
+│   ├── headers/
+│   ├── modals/
+│   └── taskComp/
+├── pages/
+├── routes/
+└── utils/
+
+```
+
+## Author
+
+Sahil Mane
