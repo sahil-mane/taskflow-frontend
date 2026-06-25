@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import "../styles/authStyles.css";
 import { useLogin, useRegister } from "../api/auth";
 import toast from "react-hot-toast";
 import { useNavigate } from "react-router-dom";
